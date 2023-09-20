@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Table Practice</title>
+    <style>
+        table {
+            /* Shorthand for properties that follow */
+            /* border: 1px red solid; */
+            border-width: 1px;
+            border-color: red;
+            border-style: solid;
+        }
+        thead {
+            background-color: rgb(123, 112, 157);
+            color: white;
+        }
+        th {
+            padding: 8px;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <thead>
+            <tr>
+                <th>
+                    Warmup Name
+                </th>
+                <th>
+                    Ayes
+                </th>
+                <th>
+                    Nays
+                </th>
+            </tr>
+       </thead>
+       
+        <tbody>
+            <tr>
+                <td>Set Game</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Network Puzzle</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Logic Gird</td>
+                <td>1</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Zebra</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Typing</td>
+                <td>13</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Acrostic Puzzle</td>
+                <td>2</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
